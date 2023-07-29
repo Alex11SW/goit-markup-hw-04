@@ -420,6 +420,7 @@ img {
 .customer-list {
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 .custome-item {
   width: calc((100% - 120px) / 6);
