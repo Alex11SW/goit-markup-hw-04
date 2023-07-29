@@ -421,6 +421,7 @@ img {
   display: flex;
   gap: 24px;
   list-style: none;
+  text-decoration: none;
 }
 .custome-item {
   width: calc((100% - 120px) / 6);
