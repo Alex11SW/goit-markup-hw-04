@@ -68,7 +68,12 @@
       <section class="hero list">
         <div class="container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
-          <button type="button" id="electriccars" class="hero-buttom">
+          <button
+            type="button"
+            id="electriccars"
+            class="hero-buttom"
+            data-modal-open
+          >
             Order Service
           </button>
         </div>
@@ -463,9 +468,9 @@
       </div>
     </footer>
     <!--------------------------------modal-window------------------------------------------>
-    <div class="window">
+    <div class="window is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-buttom">
+        <button type="button" class="modal-buttom" data-modal-close>
           <svg class="modal-icon" width="24" height="24">
             <use
               href="./images/modal-closed.svg#icon-close-black-18dp-2-1"
