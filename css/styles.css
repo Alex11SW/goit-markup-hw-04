@@ -363,8 +363,8 @@ img {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.scial-merezha-link:hover .social-icon,
-.scial-merezha-link:focus .social-icon {
+.scial-merezha-link:hover,
+.scial-merezha-link:focus {
   background-color: #404bbf;
 }
 /*
