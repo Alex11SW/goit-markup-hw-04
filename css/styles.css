@@ -443,14 +443,20 @@ img {
 .custome-svg {
   fill: currentColor;
 }
-.customer-list-btn:hover {
-  border-color: #404bbf;
-  stroke: #404bbf;
-}
+.customer-list-btn:hover,
 .customer-list-btn:focus {
   border-color: #404bbf;
+  color: #404bbf;
   stroke: #404bbf;
 }
+
+/*
+.customer-list-btn:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+  stroke: #404bbf;
+}*/
+
 /*------------------------------------------footer---------------------------------*/
 .foote {
   background-color: var(--navyblue, #2e2f42);
