@@ -755,6 +755,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foo-mail:hover,
 .foo-mail:focus {
@@ -794,6 +795,12 @@ img {
 
   cursor: pointer;
 }
+.butt-item:hover,
+.butt-item:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .butt-item:hover,
 .butt-item:focus {
   color: var(--white);
