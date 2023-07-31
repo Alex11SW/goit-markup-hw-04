@@ -612,6 +612,7 @@ img {
 
 /*-------------------------------portfolio---------------------------------*/
 /*--------------------------------header------------------------------*/
+/*
 .foo {
   display: flex;
   height: 72px;
@@ -739,6 +740,7 @@ img {
 .foo-mail:focus {
   color: #404bbf;
 }
+*/
 /*-------------------------------------------------main------------------------------------------*/
 /*------------------------------------------------section-1-----------------------------------------*/
 .main-section {
@@ -844,10 +846,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .photo-container:hover .hero-photo-desc,
 .photo-container:focus .hero-photo-desc {
   transform: translateY(0%);
 }
+
 .hero-photo {
   position: relative;
   overflow: hidden;
